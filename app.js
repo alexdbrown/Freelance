@@ -10,21 +10,24 @@ Freelancerer.config(function($stateProvider, $urlRouterProvider)
       },
       'body': {
         templateUrl: "partials/home.html",
-      },
+        controller: 'SlideshowCtrl'
+      }
+
     }
-});
+  });
 
 
+  $stateProvider.state("slideshow", {
+    url: "/slideshow",
+    views: {
+      'header': {
+        templateUrl: 'partials/header.html',
+      },
+      'body': {
+        templateUrl: 'partials/slideshow.html',
+        controller: 'SlideshowCtrl'
+      }
+    }
+  });
 
-$stateProvider.state("slideshow", {
-  url: "",
-  views: {
-    'header': {
-      templateUrl: 'partials/header.html',
-    },
-    'body': {
-      templateUrl: "partials/slideshow.html",
-    },
-  }
-});
 });
