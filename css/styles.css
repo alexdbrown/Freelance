@@ -1,9 +1,21 @@
-body {
+/*.white {
+background-color: white;
+}*/
+
+
+/*body {
   color: white;
+}*/
+
+.wtf {
+
+/*width: auto;
+height: auto;*/
 }
 
 .jumbotron {
   background: transparent;
+  color: white;
 }
 
 .right {
@@ -21,15 +33,16 @@ font-size: 24px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 /* Styles for the alternating / transition effect. */
 .toggle-image {
-   position: absolute;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
-   height: 800px;
+  height: 650px;
   transition: opacity 1s ease-in-out;
 }
 
