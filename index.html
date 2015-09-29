@@ -6,10 +6,10 @@
     <script src="lib/angular-ui-router.js"></script>
     <!-- link to partial state controllers -->
     <script src="app.js"></script>
-    <script src="scripts.js"></script>
     <script src="controllers/HeadersController.js"></script>
     <script src="controllers/BodyController.js"></script>
     <script src="controllers/SlideshowController.js"></script>
+    <script src="controllers/StatsController.js"></script>
     <!-- link to students factory  -->
     <!-- // <script src="services/StudentFactory.js"></script> -->
     <!-- link to bootstrap 3 and external stylesheet -->
@@ -24,7 +24,7 @@
         <div class="container">
           <div ui-view="header"></div>
           <div ui-view="body"></div>
-
+          <div ui-view="stats"></div>
       </div>
   </body>
 </html>

@@ -11,8 +11,11 @@ Freelancerer.config(function($stateProvider, $urlRouterProvider)
       'body': {
         templateUrl: "partials/home.html",
         controller: 'SlideshowCtrl'
+      },
+      'stats': {
+        templateUrl: "partials/stats.html",
+        controller: 'StatsCtrl'
       }
-
     }
   });
 });
